@@ -52,10 +52,10 @@ export const ContadorResponsive = () => {
                             h={{ base: '2.4rem', md: '4rem', lg: '8rem' }}
                             w={{ base: '2.4rem', md: '4rem', lg: '8rem' }}
                             fontSize={{ base: '1.2rem', md: '2.4rem', lg: '4rem' }}                            
-                            fontWeight='bold'                            
-                            bg={count <= 0 ? '#319795' : '#E53E3E'}
-                            colorScheme='none'                
-                            disabled={count <= 0} 
+                            fontWeight='bold'                                                      
+                            bg='#E53E3E' 
+                            color='#ffffff'               
+                            isDisabled={count <= 0} 
                             onClick={subtractCounter}
                         >
                         -
